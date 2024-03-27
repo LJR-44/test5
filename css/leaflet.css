@@ -468,6 +468,11 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	text-align: center;
 	margin-bottom: 20px;
 	}
+ .leaflet-popup-content {
+        width: fit-content;
+        height: fit-content;
+        height: auto !important;
+        }
 .leaflet-popup-content-wrapper {
 	padding: 1px;
 	text-align: left;
